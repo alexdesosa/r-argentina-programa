@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 6</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <form id="calcularFamilia">
+        <label for="cantidadFamilia">¿Cuánta gente hay en tu grupo familiar?</label>
+        <input type="number" id="cantidadFamilia" />
+        <button type="submit" id="añadirBoton">Añadir</button>
+
+        <div id="familiares">
+
+        </div>
+
+        <button type="submit" id="calcularBoton">Calcular</button> <br>
+
+        <div id="analisis" class="oculto">
+            <em id="mayorEdad">La mayor edad es...</em> <br>
+            <em id="menorEdad">La menor edad es...</em> <br>
+            <em id="promedioEdad">El promedio de edad es...</em>
+        </div>
+
+        <div id="salarios">
+
+        </div>
+
+        <button type="submit" id="calcularBotonSalario">Calcular Salario</button> <br>
+
+        <div id="analizarSalarios" class="oculto">
+            <em id="salarioMayor">El mayor salario anual es de...</em> <br>
+            <em id="salarioMenor">El menor salario anual es de...</em> <br>
+            <em id="salarioPromedio">El salario anual promedio es de...</em> <br>
+            <em id="salarioPromedioMensual">El salario mensual promedio es de...</em>
+        </div>
+
+        <button type="reset" id="resetearBoton">Resetear</button>
+    </form>
+    <script src="./calculos-matematicos.js"></script>
+    <script src="./tarea-clase-6.js"></script>
+</body>
+
+</html>

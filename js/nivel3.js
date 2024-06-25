@@ -1,4 +1,4 @@
-// Nivel 3
+ // Nivel 3
 
 /*
     Introducción
@@ -25,6 +25,7 @@
     <header></header>
     <p></p>
     <img />
+    <input type = "text" disabled value = "1"/>
 
     A estos elementos los llamamos "tags". Cada elemento de la página tiene un tag que abre y otro que
     cierra. (NOTA: Algunos tags, como <img />, no necesitan ser
@@ -55,8 +56,8 @@
     visuales. Una declaración se ve así:
     
     [selector] {
-      nombre-de-estilo: valor;
-      nombre-de-estilo: valor;
+      nombre-de-estilo: valor; #
+      nombre-de-estilo: valor; .
       nombre-de-estilo: valor;
     }
 
